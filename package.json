@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^7.1.0"
+    "gulp-imagemin": "^7.1.0",
+    "gulp-uglify": "^3.0.2"
   },
   "name": "clone_disneyplus",
   "version": "1.0.0",
@@ -542,7 +543,7 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "dev":"gulp watch",
+    "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
